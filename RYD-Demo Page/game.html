@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <!--   Meta Tags ---->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Welcome Page</title>
+
+    <!-- Bootstrapp plugin -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--    Font Style  -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icon --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--- Main Style Sheet ---->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/game.css">
+
+  </head>
+  <body>
+      <div class="box">
+        <div class="row">
+          <div class="col">
+
+            <div class="row">
+              <img class="logo" src="images/apna-study-black-png.png" alt="">
+            </div>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<style>
+
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+<div class="container">
+<style>
+
+</style>
+
+<div class="bg-image"></div>
+
+<div class="">
+  <h5 style="color: white;">Try For Other Quizes Too!</h5>
+  <a href="game.html"><button class="button">Geography</button></a>
+<a href="game.html"><button class="button button2">English</button></a>
+<a href="game.html"><button class="button button3">Physics</button></a>
+<a href="game.html"><button class="button button4">History</button></a>
+<a href="game.html"><button class="button button5">Politics</button></a>
+</div>
+<div style="text-align: center;font-size: 32px; color: white; ">YOU<img src="images/vs.webp" alt="VS" height="50" width="50"> BOT </div>
+<br>
+<div id="question-container" class="hide">
+<div id="question" style="text-align: center;font-size: 22px; color: white;">Question</div>
+<div id="answer-buttons" class="btn-grid">
+<button class="btn">Answer 1</button>
+<button class="btn">Answer 2</button>
+<button class="btn">Answer 3</button>
+<button class="btn">Answer 4</button>
+</div>
+</div>
+<div class="controls">
+<button id="start-btn" style=" color: white;" class="start-btn ">Start </button>
+<button id="restart-btn" style=" color: white;" class="restart-btn hide">PLAY AGAIN?</button>
+<button id="next-btn" style=" color: white;" class="next-btn hide">Next</button>
+<a  href="form.html"><button id="register-btn" style=" color: white;" class="register-btn hide">EXPLORE MORE!</button></a>
+
+</div>
+</div>
+
+
+<script>
+
+window.HUB_EVENTS = {
+    ASSET_ADDED: "ASSET_ADDED",
+    ASSET_DELETED: "ASSET_DELETED",
+    ASSET_DESELECTED: "ASSET_DESELECTED",
+    ASSET_SELECTED: "ASSET_SELECTED",
+    ASSET_UPDATED: "ASSET_UPDATED",
+    CONSOLE_CHANGE: "CONSOLE_CHANGE",
+    CONSOLE_CLOSED: "CONSOLE_CLOSED",
+    CONSOLE_EVENT: "CONSOLE_EVENT",
+    CONSOLE_OPENED: "CONSOLE_OPENED",
+    CONSOLE_RUN_COMMAND: "CONSOLE_RUN_COMMAND",
+    CONSOLE_SERVER_CHANGE: "CONSOLE_SERVER_CHANGE",
+    EMBED_ACTIVE_PEN_CHANGE: "EMBED_ACTIVE_PEN_CHANGE",
+    EMBED_ACTIVE_THEME_CHANGE: "EMBED_ACTIVE_THEME_CHANGE",
+    EMBED_ATTRIBUTE_CHANGE: "EMBED_ATTRIBUTE_CHANGE",
+    EMBED_RESHOWN: "EMBED_RESHOWN",
+    FORMAT_FINISH: "FORMAT_FINISH",
+    FORMAT_ERROR: "FORMAT_ERROR",
+    FORMAT_START: "FORMAT_START",
+    IFRAME_PREVIEW_RELOAD_CSS: "IFRAME_PREVIEW_RELOAD_CSS",
+    IFRAME_PREVIEW_URL_CHANGE: "IFRAME_PREVIEW_URL_CHANGE",
+    KEY_PRESS: "KEY_PRESS",
+    LINTER_FINISH: "LINTER_FINISH",
+    LINTER_START: "LINTER_START",
+    PEN_CHANGE_SERVER: "PEN_CHANGE_SERVER",
+    PEN_CHANGE: "PEN_CHANGE",
+    PEN_EDITOR_CLOSE: "PEN_EDITOR_CLOSE",
+    PEN_EDITOR_CODE_FOLD: "PEN_EDITOR_CODE_FOLD",
+    PEN_EDITOR_ERRORS: "PEN_EDITOR_ERRORS",
+    PEN_EDITOR_EXPAND: "PEN_EDITOR_EXPAND",
+    PEN_EDITOR_FOLD_ALL: "PEN_EDITOR_FOLD_ALL",
+    PEN_EDITOR_LOADED: "PEN_EDITOR_LOADED",
+    PEN_EDITOR_REFRESH_REQUEST: "PEN_EDITOR_REFRESH_REQUEST",
+    PEN_EDITOR_RESET_SIZES: "PEN_EDITOR_RESET_SIZES",
+    PEN_EDITOR_SIZES_CHANGE: "PEN_EDITOR_SIZES_CHANGE",
+    PEN_EDITOR_UI_CHANGE_SERVER: "PEN_EDITOR_UI_CHANGE_SERVER",
+    PEN_EDITOR_UI_CHANGE: "PEN_EDITOR_UI_CHANGE",
+    PEN_EDITOR_UI_DISABLE: "PEN_EDITOR_UI_DISABLE",
+    PEN_EDITOR_UI_ENABLE: "PEN_EDITOR_UI_ENABLE",
+    PEN_EDITOR_UNFOLD_ALL: "PEN_EDITOR_UNFOLD_ALL",
+    PEN_ERROR_INFINITE_LOOP: "PEN_ERROR_INFINITE_LOOP",
+    PEN_ERROR_RUNTIME: "PEN_ERROR_RUNTIME",
+    PEN_ERRORS: "PEN_ERRORS",
+    PEN_LIVE_CHANGE: "PEN_LIVE_CHANGE",
+    PEN_LOGS: "PEN_LOGS",
+    PEN_MANIFEST_CHANGE: "PEN_MANIFEST_CHANGE",
+    PEN_MANIFEST_FULL: "PEN_MANIFEST_FULL",
+    PEN_PREVIEW_FINISH: "PEN_PREVIEW_FINISH",
+    PEN_PREVIEW_START: "PEN_PREVIEW_START",
+    PEN_SAVED: "PEN_SAVED",
+    POPUP_CLOSE: "POPUP_CLOSE",
+    POPUP_OPEN: "POPUP_OPEN",
+    POST_CHANGE: "POST_CHANGE",
+    POST_SAVED: "POST_SAVED",
+    PROCESSING_FINISH: "PROCESSING_FINISH",
+    PROCESSING_START: "PROCESSED_STARTED"
+},
+"object" != typeof window.CP && (window.CP = {}),
+window.CP.PenTimer = {
+    programNoLongerBeingMonitored: !1,
+    timeOfFirstCallToShouldStopLoop: 0,
+    _loopExits: {},
+    _loopTimers: {},
+    START_MONITORING_AFTER: 2e3,
+    STOP_ALL_MONITORING_TIMEOUT: 5e3,
+    MAX_TIME_IN_LOOP_WO_EXIT: 2200,
+    exitedLoop: function(E) {
+        this._loopExits[E] = !0
+    },
+    shouldStopLoop: function(E) {
+        if (this.programKilledSoStopMonitoring)
+            return !0;
+        if (this.programNoLongerBeingMonitored)
+            return !1;
+        if (this._loopExits[E])
+            return !1;
+        var _ = this._getTime();
+        if (0 === this.timeOfFirstCallToShouldStopLoop)
+            return this.timeOfFirstCallToShouldStopLoop = _,
+            !1;
+        var o = _ - this.timeOfFirstCallToShouldStopLoop;
+        if (o < this.START_MONITORING_AFTER)
+            return !1;
+        if (o > this.STOP_ALL_MONITORING_TIMEOUT)
+            return this.programNoLongerBeingMonitored = !0,
+            !1;
+        try {
+            this._checkOnInfiniteLoop(E, _)
+        } catch (N) {
+            return this._sendErrorMessageToEditor(),
+            this.programKilledSoStopMonitoring = !0,
+            !0
+        }
+        return !1
+    },
+    _sendErrorMessageToEditor: function() {
+        try {
+            if (this._shouldPostMessage()) {
+                var E = {
+                    topic: HUB_EVENTS.PEN_ERROR_INFINITE_LOOP,
+                    data: {
+                        line: this._findAroundLineNumber()
+                    }
+                };
+                parent.postMessage(E, "*")
+            } else
+                this._throwAnErrorToStopPen()
+        } catch (_) {
+            this._throwAnErrorToStopPen()
+        }
+    },
+    _shouldPostMessage: function() {
+        return document.location.href.match(/boomerang/)
+    },
+    _throwAnErrorToStopPen: function() {
+        throw "We found an infinite loop in your Pen. We've stopped the Pen from running. Please correct it or contact support@codepen.io."
+    },
+    _findAroundLineNumber: function() {
+        var E = new Error
+          , _ = 0;
+        if (E.stack) {
+            var o = E.stack.match(/boomerang\S+:(\d+):\d+/);
+            o && (_ = o[1])
+        }
+        return _
+    },
+    _checkOnInfiniteLoop: function(E, _) {
+        if (!this._loopTimers[E])
+            return this._loopTimers[E] = _,
+            !1;
+        var o;
+        if (_ - this._loopTimers[E] > this.MAX_TIME_IN_LOOP_WO_EXIT)
+            throw "Infinite Loop found on loop: " + E
+    },
+    _getTime: function() {
+        return +new Date
+    }
+},
+window.CP.shouldStopExecution = function(E) {
+    var _ = window.CP.PenTimer.shouldStopLoop(E);
+    return !0 === _ && console.warn("[CodePen]: An infinite loop (or a loop taking too long) was detected, so we stopped its execution. Sorry!"),
+    _
+}
+,
+window.CP.exitedLoop = function(E) {
+    window.CP.PenTimer.exitedLoop(E)
+}
+;
+
+
+</script>
+
+
+<script id="rendered-js">
+const startButton = document.getElementById('start-btn');
+const restartButton = document.getElementById('restart-btn');
+const nextButton = document.getElementById('next-btn');
+const regButton = document.getElementById('register-btn');
+const questionContainerElement = document.getElementById('question-container');
+const questionElement = document.getElementById('question');
+const answerButtonsElement = document.getElementById('answer-buttons');
+
+let shuffledQuestions, currentQuestionIndex;
+
+startButton.addEventListener('click', startGame);
+nextButton.addEventListener('click', () => {
+  currentQuestionIndex++;
+  setNextQuestion();
+});
+
+function startGame() {
+  startButton.classList.add('hide');
+  shuffledQuestions = questions.sort(() => 1 - .5);
+  currentQuestionIndex = 0;
+  questionContainerElement.classList.remove('hide');
+  setNextQuestion();
+}
+
+function setNextQuestion() {
+  resetState();
+  showQuestion(shuffledQuestions[currentQuestionIndex]);
+}
+
+function showQuestion(question) {
+  questionElement.innerText = question.question;
+  question.answers.forEach(answer => {
+    const button = document.createElement('button');
+    button.innerText = answer.text;
+    button.classList.add('btn');
+    if (answer.correct) {
+      button.dataset.correct = answer.correct;
+    }
+    button.addEventListener('click', selectAnswer);
+    answerButtonsElement.appendChild(button);
+  });
+}
+
+function resetState() {
+  clearStatusClass(document.body);
+  nextButton.classList.add('hide');
+  while (answerButtonsElement.firstChild) {if (window.CP.shouldStopExecution(0)) break;
+    answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+  }window.CP.exitedLoop(0);
+}
+
+function selectAnswer(e) {
+  const selectedButton = e.target;
+  const correct = selectedButton.dataset.correct;
+  setStatusClass(document.body, correct);
+  Array.from(answerButtonsElement.children).forEach(button => {
+    setStatusClass(button, button.dataset.correct);
+  });
+  if (shuffledQuestions.length > currentQuestionIndex + 1) {
+    nextButton.classList.remove('hide');
+  } else {
+    regButton.innerText = 'EXPLORE MORE!';
+	regButton.classList.remove('hide');
+	startButton.innerText = 'PLAY AGAIN?';
+	startButton.classList.remove('hide');
+	
+  }
+}
+
+function setStatusClass(element, correct) {
+  clearStatusClass(element);
+  if (correct) {
+    element.classList.add('correct');
+  } else {
+    element.classList.add('wrong');
+  }
+}
+
+function clearStatusClass(element) {
+  element.classList.remove('correct');
+  element.classList.remove('wrong');
+}
+
+const questions = [
+{
+  question: 'What is 2 + 2?',
+  answers: [
+  { text: '4', correct: true },
+  { text: '22', correct: false }] },
+
+
+{
+  question: 'Who is the best YouTuber?',
+  answers: [
+  { text: 'Web Dev Simplified', correct: true },
+  { text: 'Traversy Media', correct: true },
+  { text: 'Dev Ed', correct: true },
+  { text: 'Fun Fun Function', correct: true }] },
+  
+{
+  question: 'Who is the best YouTuber?',
+  answers: [
+  { text: 'Web Dev Simplified', correct: true },
+  { text: 'Traversy Media', correct: true },
+  { text: 'Dev Ed', correct: true },
+  { text: 'Fun Fun Function', correct: true }] },
+
+
+{
+  question: 'Is web development fun?',
+  answers: [
+  { text: 'Kinda', correct: false },
+  { text: 'YES!!!', correct: true },
+  { text: 'Um no', correct: false },
+  { text: 'IDK', correct: false }] },
+
+
+{
+  question: 'What is 4 * 2?',
+  answers: [
+  { text: '6', correct: false },
+  { text: '8', correct: true }] }];
+  
+  
+//# sourceURL=pen.js
+    </script>
+
+
+          </div>
+          <div class="col">
+            <img class="cut" src="images/bg.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+  </body>
+</html>
